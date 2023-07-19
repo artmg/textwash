@@ -12,6 +12,8 @@ Textwash was designed to be a tool that meets the highest standards that we have
 - **Open source:** the code base is open source and can be inspected, used adn modified in line with the [GNU General Public License 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html). We do this because we think it is essential that you know what this tool does.
 - **Learning-based anonymisation:** since the information that can reveal personal data is complex, we are not using a dictionary-based approach (e.g., looking up keywords in a static database). Instead, the core of Textwash is a machine learning model that assigns category probabilities to phrases and anonymises them accordingly.
 
+For further information please read the paper based on early versions of this software: [Textwash - automated open-source text anonymisation](https://arxiv.org/pdf/2208.13081.pdf) 
+
 ### Note for researchers/organisations/other users
 
 We would be glad if Textwash is helpful to you. But even if you prefer to use another tool, we strongly encourage you to ask the developers to provide you _as the bare minimum_ with (i) an evaluation of their tool that shows empirically what it can and cannot do (you can even point them to our evaluation approach and ask them to show how their tool performs on our evaluation dataset), and (ii) reasons why they require you to send your data to online services or an API (you should never do this, nor does a good software necessitate this).
