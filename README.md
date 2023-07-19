@@ -8,7 +8,7 @@ Textwash is an automated text anonymisation tool written in Python. The tool can
 Textwash was designed to be a tool that meets the highest standards that we have for text anonymisation. The following principles guided our development decisions:
 
 - **Complete and transparent evaluation:** you can find a full empirical evaluation of this tool in the paper linked below. We put the tool to various tests and show what it can(not) do -  this includes a motivated intruder test where humans try to re-identify persons from Textwash-anonymised documents.
-- **Data never the your system:** at no point does the Textwash tool require you to upload (text) data or use an API. The tool is entirely functional offline (you can try it by switching off your Internet connection). This feature is essential to avoid any data leakage or possible risks for your data.
+- **Data never leaves your system:** at no point does the Textwash tool require you to upload (text) data or use an API. The tool is entirely functional offline (you can try it by switching off your Internet connection). This feature is essential to avoid any data leakage or possible risks for your data.
 - **Open source:** the code base is open source and can be inspected, used adn modified in line with the [GNU General Public License 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html). We do this because we think it is essential that you know what this tool does.
 - **Learning-based anonymisation:** since the information that can reveal personal data is complex, we are not using a dictionary-based approach (e.g., looking up keywords in a static database). Instead, the core of Textwash is a machine learning model that assigns category probabilities to phrases and anonymises them accordingly.
 
